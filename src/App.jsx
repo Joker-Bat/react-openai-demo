@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import "./App.css";
 // import { getOpenAIResponse } from "./openaiService";
 import { getGeminiResponse } from "./geminiService";
-import MessageBubble from "./components/messageBubble";
+import MessageBubble from "./components/MessageBubble";
 
 function App() {
   const chatContainerRef = useRef();
